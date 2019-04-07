@@ -1,7 +1,11 @@
+# ajax demo
+
+## 以下是操作步骤日志
+
 ### step1
 
 ```s
-    # 创建一个名为ajax_dmeo的文件夹
+    # 创建一个名为ajax_demo的文件夹
     $ mkdir ajax_demo
 ```
 
@@ -62,7 +66,7 @@ app.listen(8888, () => {
 ```s
     $ npm install express --save
     # --save 修饰过后，该模块名称和版本号会记录在 package.json 中的 dependencies 对象中，代表的是该模块是需要在生产环境中用到的。
-    # -save-dev 将模板安装在当前开发项目，使用该命令会自动将模块的名称和版本号添加到 package.json 中的 devdependencies 部分，是使用该命令，需要手动进行添加完成之后，项目文件夹中会出现两个内容 package.json 文件和 node_mudules.json 文件夹。
+    # --save-dev 将模板安装在当前开发项目，使用该命令会自动将模块的名称和版本号添加到 package.json 中的 devdependencies 部分，是使用该命令，需要手动进行添加完成之后，项目文件夹中会出现两个内容 package.json 文件和 node_mudules.json 文件夹。
 ```
 
 > 运行项目
