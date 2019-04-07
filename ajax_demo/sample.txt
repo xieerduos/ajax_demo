@@ -1,0 +1,11 @@
+// 读操作
+// 
+// 第一个参数是：读取目标文件路径
+// 第二个参数是：读取的编码格式
+// fs.readFile('./data.txt','utf-8',function(err,date){
+//     if(err){
+//         console.error(err);
+//     }else{
+//         console.log(date);
+//     }
+// })
